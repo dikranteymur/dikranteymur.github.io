@@ -1,54 +1,229 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="no-js" data-root="">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Dikran Teymur — Games</title>
-<meta name="description" content="Small, calm puzzle games for iPhone and Android.">
-<style>
-  :root { --bg: #fbf8f3; --ink: #2b2620; --muted: #6f665b; --line: #e6dfd3; --card: #ffffff; --accent: #b4562f; }
-  @media (prefers-color-scheme: dark) {
-    :root { --bg: #1c1a17; --ink: #ece6dc; --muted: #a59c90; --line: #35312b; --card: #24211d; --accent: #e08a5f; }
-  }
-  * { box-sizing: border-box; }
-  body { margin: 0; background: var(--bg); color: var(--ink);
-         font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
-  main { max-width: 720px; margin: 0 auto; padding: 48px 16px 64px; }
-  h1 { font-size: 30px; line-height: 1.2; margin: 0 0 4px; }
-  h2 { font-size: 20px; margin: 0 0 4px; }
-  .meta { color: var(--muted); margin: 0 0 32px; }
-  .game { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 20px; margin: 0 0 16px; }
-  .game p { margin: 0 0 12px; color: var(--muted); }
-  .links a { margin-right: 16px; white-space: nowrap; }
-  a { color: var(--accent); }
-  footer { margin-top: 40px; color: var(--muted); font-size: 15px; }
-</style>
+<title>MDT Software Apps — Apps and games by Dikran Teymur</title>
+<meta name="description" content="Independent apps and puzzle games for iPhone and Android by Dikran Teymur: Finance Tracker, Professional Tuner, Tilted Shelf, Sliding Penguins and Screen Menu. Support, privacy policies and EULAs.">
+<link rel="canonical" href="https://dikranteymur.github.io/">
+<meta name="theme-color" content="#0b1020">
+<meta name="author" content="Dikran Teymur">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MDT Software Apps">
+<meta property="og:title" content="MDT Software Apps — Apps and games by Dikran Teymur">
+<meta property="og:description" content="Independent apps and puzzle games for iPhone and Android, with support, privacy policies and EULAs for each one.">
+<meta property="og:url" content="https://dikranteymur.github.io/">
+<meta property="og:image" content="https://dikranteymur.github.io/assets/img/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="MDT Software Apps: Finance Tracker, Professional Tuner, Tilted Shelf, Sliding Penguins and Screen Menu">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="preload" href="assets/fonts/schibsted-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/site.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "MDT Software Apps",
+  "url": "https://dikranteymur.github.io/",
+  "logo": "https://dikranteymur.github.io/assets/img/apple-touch-icon.png",
+  "email": "mdtsoftware21@gmail.com",
+  "founder": { "@type": "Person", "name": "Dikran Teymur" }
+}
+</script>
 </head>
 <body>
-<main>
-  <h1>Dikran Teymur — Games</h1>
-  <p class="meta">Small, calm puzzle games for iPhone and Android.</p>
+<a class="skip-link" href="#main">Skip to content</a>
 
-  <section class="game">
-    <h2>Tilted Shelf <span lang="tr">(Eğik Raf)</span></h2>
-    <p>Tilt the shelves and slide every item onto its spot.</p>
-    <div class="links">
-      <a href="egik-raf-privacy/">Privacy Policy</a>
-      <a href="egik-raf-privacy/support.html">Support</a>
-      <a href="egik-raf-privacy/terms.html">Terms of Use</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="./" aria-label="MDT Software Apps, home">
+      <img class="brand-mark" src="assets/img/favicon.svg" alt="" width="28" height="28">
+      <span class="brand-name">MDT Software Apps</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+      <svg class="icon-open" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <svg class="icon-close" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="./" aria-current="page">Home</a></li>
+        <li><a href="#apps">Applications</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#support">Support</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="wrap">
+      <div>
+        <p class="eyebrow">Independent developer · iOS &amp; Android</p>
+        <h1 id="hero-title">Useful apps and calm puzzle games, <span class="accent">built by one developer.</span></h1>
+        <p class="hero-lede">MDT Software Apps is where Dikran Teymur publishes apps: a tuner for bağlama and other instruments, a personal finance tracker, an offline menu board for cafés, and two puzzle games. Each one is designed, built and supported by the same person.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#apps">Explore Applications</a>
+          <a class="btn btn-ghost" href="#support">Get Support</a>
+        </div>
+      </div>
+
+      <div class="board" aria-labelledby="board-title">
+        <div class="board-head">
+          <span id="board-title">Release status</span>
+          <span>App Store</span>
+          <span>Google Play</span>
+        </div>
+        <div id="release-board">
+          <noscript><p class="board-foot">Store status for each app is listed in Applications below.</p></noscript>
+        </div>
+        <p class="board-foot">Store status checked October 2026.</p>
+      </div>
     </div>
   </section>
 
-  <section class="game">
-    <h2>Sliding Penguins</h2>
-    <div class="links">
-      <a href="penguin-slide-privacy/">Privacy Policy</a>
-      <a href="penguin-slide-privacy/support.html">Support</a>
-      <a href="penguin-slide-privacy/terms.html">Terms of Use</a>
+  <section class="section" id="apps" aria-labelledby="apps-title">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Applications</p>
+          <h2 id="apps-title">Five apps, each with one job</h2>
+        </div>
+        <p>Download from the store where the app is live. Every app has its own privacy policy, license terms and support page.</p>
+      </div>
+      <div class="app-grid" id="app-grid">
+        <noscript>
+          <ul class="facts">
+            <li><strong>Finance Tracker</strong><a href="apps/finance-tracker/privacy.html">Privacy Policy</a> · <a href="apps/finance-tracker/eula.html">EULA</a> · <a href="apps/finance-tracker/support.html">Support</a></li>
+            <li><strong>Professional Tuner</strong><a href="apps/professional-tuner/privacy.html">Privacy Policy</a> · <a href="apps/professional-tuner/eula.html">EULA</a> · <a href="apps/professional-tuner/support.html">Support</a></li>
+            <li><strong>Tilted Shelf</strong><a href="apps/tilted-shelf/privacy.html">Privacy Policy</a> · <a href="apps/tilted-shelf/eula.html">EULA</a> · <a href="apps/tilted-shelf/support.html">Support</a></li>
+            <li><strong>Sliding Penguins</strong><a href="apps/penguin-slide/privacy.html">Privacy Policy</a> · <a href="apps/penguin-slide/eula.html">EULA</a> · <a href="apps/penguin-slide/support.html">Support</a></li>
+            <li><strong>Screen Menu</strong><a href="apps/screen-menu/privacy.html">Privacy Policy</a> · <a href="apps/screen-menu/eula.html">EULA</a> · <a href="apps/screen-menu/support.html">Support</a></li>
+          </ul>
+        </noscript>
+      </div>
     </div>
   </section>
 
-  <footer>Contact: <a href="mailto:mdtsoftware21@gmail.com">mdtsoftware21@gmail.com</a></footer>
+  <section class="section" id="about" aria-labelledby="about-title">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">About</p>
+          <h2 id="about-title">Small studio, one person</h2>
+        </div>
+      </div>
+      <div class="about-grid">
+        <div class="about-copy">
+          <p>MDT Software Apps is the name Dikran Teymur publishes under. There is no team behind the apps: the same developer designs them, writes the code, tests them and answers the support email.</p>
+          <p>Each app does a specific job. Tune an instrument accurately. Keep track of what you spend. Put a café's menu on a TV without a cloud subscription. Or spend a few quiet minutes on a puzzle.</p>
+          <p>The apps are made for iPhone and Android, and some also run on iPad, Mac, Apple Watch or a TV. Where an app isn't in a store yet, its card says so.</p>
+        </div>
+        <ul class="facts" aria-label="How the apps handle your data">
+          <li><strong>No account needed to play</strong>Tilted Shelf and Sliding Penguins save your progress on your device. There is no sign-up.</li>
+          <li><strong>Audio stays on your device</strong>Professional Tuner analyses the microphone signal on your phone. No audio is recorded or uploaded.</li>
+          <li><strong>Menus stay on your network</strong>Screen Menu sends menus from your device to your TV over local Wi‑Fi, without a cloud server.</li>
+          <li><strong>Every data practice is written down</strong>Each app's privacy policy lists exactly which services it uses, including ads and purchases.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="support" aria-labelledby="support-title">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Support</p>
+          <h2 id="support-title">Get help with an app</h2>
+        </div>
+        <p>Start with the app's support page: it answers common questions. If that doesn't solve it, send an email.</p>
+      </div>
+
+      <div class="support-grid">
+        <div class="panel" id="contact">
+          <h3>Contact</h3>
+          <p>For questions, bug reports and feedback about any app:</p>
+          <a class="contact-email" href="mailto:mdtsoftware21@gmail.com" data-brand-email>mdtsoftware21@gmail.com</a>
+          <p>Emails are usually answered within 1–2 business days.</p>
+
+          <h3>Reporting a problem</h3>
+          <p>Please include:</p>
+          <ul class="checklist">
+            <li>App name</li>
+            <li>App version</li>
+            <li>Device model</li>
+            <li>iOS or Android version</li>
+            <li>What you did, step by step</li>
+            <li>What happened, with a screenshot if possible</li>
+          </ul>
+          <p>You can find the app version in the app's settings screen, or in the App Store or Google Play listing on your device.</p>
+        </div>
+
+        <div class="panel">
+          <h3>Support by app</h3>
+          <ul class="support-list" id="support-list">
+            <li><a href="apps/finance-tracker/support.html">Finance Tracker support</a></li>
+            <li><a href="apps/professional-tuner/support.html">Professional Tuner support</a></li>
+            <li><a href="apps/tilted-shelf/support.html">Tilted Shelf support</a></li>
+            <li><a href="apps/penguin-slide/support.html">Sliding Penguins support</a></li>
+            <li><a href="apps/screen-menu/support.html">Screen Menu support</a></li>
+          </ul>
+          <h3 class="panel-gap">Purchases and refunds</h3>
+          <p>In-app purchases and subscriptions are handled by Apple or Google. To request a refund, use <a href="https://reportaproblem.apple.com/" rel="noopener">reportaproblem.apple.com</a> on iOS or your <a href="https://play.google.com/store/account/orderhistory" rel="noopener">Google Play order history</a> on Android.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
 </main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="./">
+          <img class="brand-mark" src="assets/img/favicon.svg" alt="" width="28" height="28">
+          <span class="brand-name">MDT Software Apps</span>
+        </a>
+        <p>Apps and games by Dikran Teymur.</p>
+      </div>
+      <nav aria-labelledby="footer-site">
+        <h2 id="footer-site">Site</h2>
+        <ul>
+          <li><a href="#apps">Applications</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#support">Support</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <nav class="footer-legal" aria-labelledby="footer-legal-title">
+        <h2 id="footer-legal-title">Privacy Policies &amp; EULAs</h2>
+        <ul id="footer-legal">
+          <li><a href="apps/finance-tracker/privacy.html">Finance Tracker</a></li>
+          <li><a href="apps/professional-tuner/privacy.html">Professional Tuner</a></li>
+          <li><a href="apps/tilted-shelf/privacy.html">Tilted Shelf</a></li>
+          <li><a href="apps/penguin-slide/privacy.html">Sliding Penguins</a></li>
+          <li><a href="apps/screen-menu/privacy.html">Screen Menu</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year>2026</span> Muhammet Dikran Teymur. All rights reserved.</span>
+      <span>App Store is a service mark of Apple Inc. Google Play is a trademark of Google LLC.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/config.js"></script>
+<script src="assets/js/site.js"></script>
 </body>
 </html>

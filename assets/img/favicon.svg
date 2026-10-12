@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="MDT Software Apps">
+  <rect width="64" height="64" rx="15" fill="#121a2e"/>
+  <rect x="0.75" y="0.75" width="62.5" height="62.5" rx="14.25" fill="none" stroke="#33466e" stroke-width="1.5"/>
+  <path d="M15 46V19.5c0-1 1.2-1.5 1.9-.8L32 33.5l15.1-14.8c.7-.7 1.9-.2 1.9.8V46" fill="none" stroke="#8b7cf6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="32" cy="47" r="4" fill="#5aa9ff"/>
+</svg>
