@@ -129,6 +129,27 @@ window.MDT_CONFIG = {
       }
     },
     {
+      slug: "makeblock",
+      name: "MakeBlock",
+      storeName: "MakeBlock",
+      category: "Puzzle game",
+      platforms: "iPhone · Android",
+      description:
+        "Drop colorful pieces into the jar and watch the balls roll. Five or more touching balls of the same color pop, chains build combos. Pop your way through five pastel levels.",
+      icon: "assets/img/icons/makeblock.png",
+      screenshots: [],
+      email: "mdtsoftware21@gmail.com",
+      stores: {
+        appStore: { status: "coming-soon", url: "" },
+        googlePlay: { status: "coming-soon", url: "" }
+      },
+      pages: {
+        privacy: "apps/makeblock/privacy.html",
+        eula: "apps/makeblock/eula.html",
+        support: "apps/makeblock/support.html"
+      }
+    },
+    {
       slug: "screen-menu",
       name: "Screen Menu",
       storeName: "Screen Menu",
