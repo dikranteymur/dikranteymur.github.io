@@ -170,6 +170,27 @@ window.MDT_CONFIG = {
         eula: "apps/screen-menu/eula.html",
         support: "apps/screen-menu/support.html"
       }
+    },
+    {
+      slug: "bomb-blocks",
+      name: "Bomb Blocks",
+      storeName: "Bomb Blocks",
+      category: "Puzzle game",
+      platforms: "iPhone · Android",
+      description:
+        "Drag pieces onto the board and clear rows and columns. Bombs, lightning and rainbow blocks set off chain reactions for big combos.",
+      icon: "assets/img/icons/bomb-blocks.png",
+      screenshots: [],
+      email: "mdtsoftware21@gmail.com",
+      stores: {
+        appStore: { status: "coming-soon", url: "" },
+        googlePlay: { status: "coming-soon", url: "" }
+      },
+      pages: {
+        privacy: "apps/bomb-blocks/privacy.html",
+        eula: "apps/bomb-blocks/eula.html",
+        support: "apps/bomb-blocks/support.html"
+      }
     }
   ]
 };
