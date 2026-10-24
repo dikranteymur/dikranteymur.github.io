@@ -191,6 +191,27 @@ window.MDT_CONFIG = {
         eula: "apps/bomb-blocks/eula.html",
         support: "apps/bomb-blocks/support.html"
       }
+    },
+    {
+      slug: "bullet-curve",
+      name: "Bullet Curve",
+      storeName: "Bullet Curve",
+      category: "Arcade game",
+      platforms: "iPhone · Android",
+      description:
+        "Touch to fire and bend the bullet around obstacles to hit the target in one shot. 100 sections, boss fights and a story to uncover.",
+      icon: "assets/img/icons/bullet-curve.png",
+      screenshots: [],
+      email: "mdtsoftware21@gmail.com",
+      stores: {
+        appStore: { status: "coming-soon", url: "" },
+        googlePlay: { status: "coming-soon", url: "" }
+      },
+      pages: {
+        privacy: "apps/bullet-curve/privacy.html",
+        eula: "apps/bullet-curve/eula.html",
+        support: "apps/bullet-curve/support.html"
+      }
     }
   ]
 };
