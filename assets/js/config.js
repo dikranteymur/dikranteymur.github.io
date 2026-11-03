@@ -120,7 +120,7 @@ window.MDT_CONFIG = {
       email: "mdtsoftware21@gmail.com",
       stores: {
         appStore: { status: "coming-soon", url: "" },
-        googlePlay: { status: "coming-soon", url: "" }
+        googlePlay: { status: "available", url: "https://play.google.com/store/apps/details?id=com.mdteymur.penguinslide", verified: "2026-11-04" }
       },
       pages: {
         privacy: "apps/penguin-slide/privacy.html",
@@ -137,7 +137,11 @@ window.MDT_CONFIG = {
       description:
         "Drop colorful pieces into the jar and watch the balls roll. Five or more touching balls of the same color pop, chains build combos. Pop your way through five pastel levels.",
       icon: "assets/img/icons/makeblock.png",
-      screenshots: [],
+      screenshots: [
+        "assets/img/screens/makeblock-1.jpg",
+        "assets/img/screens/makeblock-2.jpg",
+        "assets/img/screens/makeblock-3.jpg"
+      ],
       email: "mdtsoftware21@gmail.com",
       stores: {
         appStore: { status: "coming-soon", url: "" },
@@ -180,11 +184,15 @@ window.MDT_CONFIG = {
       description:
         "Drag pieces onto the board and clear rows and columns. Bombs, lightning and rainbow blocks set off chain reactions for big combos.",
       icon: "assets/img/icons/bomb-blocks.png",
-      screenshots: [],
+      screenshots: [
+        "assets/img/screens/bomb-blocks-1.jpg",
+        "assets/img/screens/bomb-blocks-2.jpg",
+        "assets/img/screens/bomb-blocks-3.jpg"
+      ],
       email: "mdtsoftware21@gmail.com",
       stores: {
         appStore: { status: "coming-soon", url: "" },
-        googlePlay: { status: "coming-soon", url: "" }
+        googlePlay: { status: "available", url: "https://play.google.com/store/apps/details?id=com.bombblocks.app", verified: "2026-11-04" }
       },
       pages: {
         privacy: "apps/bomb-blocks/privacy.html",
@@ -201,11 +209,15 @@ window.MDT_CONFIG = {
       description:
         "Touch to fire and bend the bullet around obstacles to hit the target in one shot. 100 sections, boss fights and a story to uncover.",
       icon: "assets/img/icons/bullet-curve.png",
-      screenshots: [],
+      screenshots: [
+        "assets/img/screens/bullet-curve-1.jpg",
+        "assets/img/screens/bullet-curve-2.jpg",
+        "assets/img/screens/bullet-curve-3.jpg"
+      ],
       email: "mdtsoftware21@gmail.com",
       stores: {
         appStore: { status: "coming-soon", url: "" },
-        googlePlay: { status: "coming-soon", url: "" }
+        googlePlay: { status: "available", url: "https://play.google.com/store/apps/details?id=com.dikran.bulletcurve", verified: "2026-11-04" }
       },
       pages: {
         privacy: "apps/bullet-curve/privacy.html",
