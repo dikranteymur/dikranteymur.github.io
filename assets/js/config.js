@@ -191,7 +191,7 @@ window.MDT_CONFIG = {
       ],
       email: "mdtsoftware21@gmail.com",
       stores: {
-        appStore: { status: "coming-soon", url: "" },
+        appStore: { status: "available", url: "https://apps.apple.com/app/bomb-blocks-chain-blast/id6826554802", verified: "2026-11-12" },
         googlePlay: { status: "available", url: "https://play.google.com/store/apps/details?id=com.bombblocks.app", verified: "2026-11-04" }
       },
       pages: {
@@ -216,7 +216,7 @@ window.MDT_CONFIG = {
       ],
       email: "mdtsoftware21@gmail.com",
       stores: {
-        appStore: { status: "coming-soon", url: "" },
+        appStore: { status: "available", url: "https://apps.apple.com/app/bullet-curve-bend-the-shot/id6826900400", verified: "2026-11-12" },
         googlePlay: { status: "available", url: "https://play.google.com/store/apps/details?id=com.dikran.bulletcurve", verified: "2026-11-04" }
       },
       pages: {
