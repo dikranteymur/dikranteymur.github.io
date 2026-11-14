@@ -163,3 +163,6 @@ video.unrulymedia.com, 201313863, RESELLER
 openx.com, 563905670, RESELLER, 6a698e2ec38604c6
 pubmatic.com, 160145, RESELLER, 5d62403b186f2ace
 insticator.com, cadff748-965f-4393-a76e-a8f902512bad, RESELLER, b3511ffcafb23a32
+
+# Liftoff Monetize (Vungle)
+vungle.com, 6acd36268f0c54b9af537da5, DIRECT, c107d686becd2d77
