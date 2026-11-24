@@ -1,32 +1,68 @@
 <!doctype html>
 <html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Gizlilik Politikası – Öğretmen Paneli</title>
-<style>body{font:16px/1.6 -apple-system,system-ui,sans-serif;max-width:720px;margin:0 auto;padding:24px 16px;background:#0f0f10;color:#eee}a{color:#c6f432}h1,h2{line-height:1.25}</style>
+<style>body{font:16px/1.6 -apple-system,system-ui,sans-serif;max-width:720px;margin:0 auto;padding:24px 16px;background:#0f0f10;color:#eee}a{color:#c6f432}h1,h2{line-height:1.25}h2{margin-top:1.6em}</style>
 </head><body>
 <h1>Gizlilik Politikası</h1>
 
-<p>Son güncelleme: 23 Kasım 2026</p>
-<p>Öğretmen Paneli ("uygulama"), özel ders öğretmenlerinin öğrenci, ders ve ödeme kayıtlarını yönetmesi için geliştirilmiştir. Bu politika, hangi verilerin neden işlendiğini açıklar.</p>
+<p>Son güncelleme: 24 Kasım 2026</p>
+<p>Öğretmen Paneli ("uygulama"), özel ders öğretmenlerinin ve küçük eğitim kurumlarının öğrenci, ders ve ödeme kayıtlarını yönetmesi için geliştirilmiştir. Veliler de öğretmenin davetiyle çocuklarının programını görüntüleyebilir. Bu politika, hangi verilerin neden işlendiğini, kimlerle paylaşıldığını ve haklarınızı açıklar.</p>
+
 <h2>Toplanan veriler</h2>
 <ul>
-<li><b>Hesap bilgileri:</b> ad soyad, e-posta, giriş yöntemi (e-posta veya Apple ile giriş).</li>
-<li><b>Öğretmenin girdiği kayıtlar:</b> öğrenci ve veli adı, telefon, e-posta, okul, sınıf, ders, yoklama, ders notları, ödev, ders ücreti ve tahsilat kayıtları. Bu kayıtlar öğrencilere ve velilere ait kişisel veridir; öğretmen veri sorumlusu olarak bunları hukuka uygun biçimde girmekten sorumludur.</li>
-<li><b>Abonelik bilgisi:</b> satın alma doğrulaması Apple App Store üzerinden yapılır; kart bilgileri bize ulaşmaz.</li>
+<li><b>Hesap bilgileri:</b> ad soyad, e-posta adresi, isteğe bağlı unvan ve profil fotoğrafı. Giriş yöntemine göre: e-posta ve şifre (şifre yalnızca doğrulama için, geri döndürülemez biçimde saklanır), Apple ile giriş (ad ve e-posta; Apple'ın "e-postamı gizle" seçeneğinde Apple'ın aktarma adresi) veya Google ile giriş (ad, e-posta adresi ve profil fotoğrafı).</li>
+<li><b>Öğretmenin girdiği kayıtlar:</b> öğrenci adı, telefon, e-posta, okul, sınıf, ders, öğrenciye özel notlar ve fotoğraf; veli adı, telefon, e-posta ve yakınlık; ders programı, yoklama, ders notları, ödevler, MEB kazanım ilerlemesi; ders ücreti, paketler, tahsilat, gider ve bakiye kayıtları; öğrenciye veya veliye paylaşılan materyaller (PDF ve görsel). Bu kayıtlar öğrencilere ve velilere ait kişisel veridir; öğretmen veri sorumlusu olarak bunları hukuka uygun biçimde girmekten sorumludur.</li>
+<li><b>Veli portalı:</b> veli hesabının adı ve e-postası, öğretmenin verdiği davet kodu (sunucuda yalnızca özeti saklanır), velinin gönderdiği ders talepleri ve notları. Veli yalnızca kendi çocuğunun programını, ödevlerini, bakiyesini ve kendisine paylaşılan materyalleri görür; öğretmenin notları ve diğer öğrenciler görünmez.</li>
+<li><b>Bildirim jetonu:</b> ders talebi sonucu ve paket bildirimlerini göndermek için cihazınızın Apple bildirim (APNs) jetonu. Çıkış yaptığınızda bu cihazın jetonu silinir.</li>
+<li><b>Abonelik bilgisi:</b> satın alma doğrulaması Apple App Store üzerinden yapılır; sunucuya yalnızca Apple'ın imzaladığı işlem bilgisi, plan ve bitiş tarihi ulaşır. Kart bilgileri bize ulaşmaz.</li>
+<li><b>Güvenlik kayıtları:</b> hesap silme isteği, kurum değişiklikleri gibi önemli işlemlerin kaydı (içerik yazılmaz). Yaklaşık 2 yıl saklanır.</li>
 </ul>
+
 <h2>Kullanım amaçları</h2>
-<p>Veriler yalnızca uygulamanın işlevlerini sunmak (program, yoklama, finans takibi, hatırlatmalar, raporlar) için işlenir. Verileriniz satılmaz ve reklam amacıyla kullanılmaz.</p>
-<h2>Saklama ve güvenlik</h2>
-<p>Veriler Supabase altyapısında şifreli bağlantıyla saklanır; kurumlar arası veri izolasyonu veritabanı düzeyinde (Row Level Security) uygulanır.</p>
-<h2>İzinler</h2>
+<p>Veriler yalnızca uygulamanın işlevlerini sunmak (program, yoklama, finans takibi, hatırlatmalar, raporlar, veli portalı, abonelik) için işlenir. Verileriniz satılmaz, reklam amacıyla kullanılmaz ve kullanıcıları izlemek için analiz veya reklam hizmetleri kullanılmaz.</p>
+
+<h2>Hizmet sağlayıcılar</h2>
 <ul>
-<li><b>Bildirimler:</b> ders hatırlatmaları için (isteğe bağlı).</li>
-<li><b>Takvim:</b> derslerinizi seçtiğiniz takvime eklemek için (isteğe bağlı). Takvim verileriniz sunucuya gönderilmez.</li>
+<li><b>Supabase:</b> kimlik doğrulama, veritabanı ve dosya depolama altyapısı.</li>
+<li><b>Apple:</b> Apple ile giriş, App Store satın alma ve abonelik doğrulaması, bildirim iletimi.</li>
+<li><b>Google:</b> yalnızca "Google ile devam et" seçildiğinde, giriş için.</li>
+</ul>
+<p>Bunların dışında kişisel verileriniz üçüncü kişilerle paylaşılmaz; yasal bir zorunluluk olmadıkça yetkili mercilere de aktarılmaz.</p>
+
+<h2>Google ile giriş</h2>
+<p>Google ile girdiğinizde yalnızca <b>ad, e-posta adresi ve profil fotoğrafı</b> bilgilerinize (openid, email, profile izinleri) erişilir. Bu bilgiler yalnızca sizi tanımak ve profilinizde göstermek için kullanılır; reklam için kullanılmaz, satılmaz ve başka amaçla aktarılmaz. Fotoğrafınız cihazınızda önbelleğe alınır; kendi fotoğrafınızı yüklerseniz o kullanılır. Öğretmen Paneli'nin Google API'lerinden aldığı bilgileri kullanması ve başka bir uygulamaya aktarması, <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Hizmetleri Kullanıcı Verileri Politikası</a>'na (Sınırlı Kullanım şartları dahil) uygundur.</p>
+
+<h2>Cihazınızda kalan veriler</h2>
+<ul>
+<li><b>Takvim:</b> derslerinizi seçtiğiniz takvime (iCloud veya iPhone'a ekli Google hesabı) eklemek için, isteğe bağlı. Takvim verileriniz sunucuya gönderilmez.</li>
+<li><b>Kişiler ve Fotoğraflar:</b> yalnızca sizin seçtiğiniz kişi veya fotoğraf, formu doldurmak için kullanılır; rehberinize veya fotoğraf arşivinize topluca erişilmez.</li>
+<li><b>Widget, Siri ve Kestirmeler:</b> sıradaki dersleriniz ve bekleyen tahsilat toplamı cihazınızdaki uygulama grubunda tutulur ve cihazdan çıkmaz.</li>
+<li><b>Çevrimdışı önbellek:</b> bağlantı olmadığında kayıtlarınızı göstermek için cihazda korumalı olarak saklanır; çıkış yaptığınızda silinir.</li>
+<li><b>Dışa aktarma ve PDF:</b> CSV ve PDF dosyaları cihazınızda oluşturulur; paylaşımı siz yaparsınız.</li>
 <li><b>WhatsApp:</b> uygulama mesajı kendisi göndermez; hazır metinle WhatsApp'ı açar, göndermeyi siz yaparsınız.</li>
 </ul>
+
+<h2>İzinler</h2>
+<ul>
+<li><b>Bildirimler:</b> ders hatırlatmaları ve randevu/paket bildirimleri için (isteğe bağlı).</li>
+<li><b>Takvim:</b> derslerinizi takviminize eklemek için (isteğe bağlı).</li>
+</ul>
+
+<h2>Saklama ve güvenlik</h2>
+<p>Veriler Supabase altyapısında şifreli bağlantı (TLS) ile iletilir ve şifrelenmiş depolamada saklanır. Kurumlar arası veri izolasyonu veritabanı düzeyinde (Row Level Security) uygulanır; yetkiler sunucuda doğrulanır. Fotoğraflar ve materyaller özel depolama alanında tutulur ve yalnızca yetkili kişilere kısa ömürlü bağlantılarla açılır.</p>
+
+<h2>Hesabın silinmesi</h2>
+<p>Profil &gt; Hesap ve Veri &gt; Hesabımı Sil ile hesabınızı silebilirsiniz (veli hesapları dahil). Verileriniz <b>30 gün boyunca şifreli bir şekilde saklanır</b>; bu sürede tekrar giriş yaparak silmeyi iptal edebilirsiniz. <b>30 gün sonunda tüm bilgileriniz otomatik olarak silinir</b>: öğrenci ve veli bilgileri, notlar, ödevler, fotoğraflar ve materyaller kalıcı olarak kaldırılır. Mali kayıtların yalnızca tutarları, kimseyle ilişkilendirilemeyecek biçimde kalır. Aboneliğiniz hesabı silmekle iptal olmaz; Ayarlar &gt; Apple Kimliği &gt; Abonelikler'den ayrıca iptal edin.</p>
+
 <h2>Haklarınız (KVKK)</h2>
-<p>Uygulamada Profil &gt; Hesap ve Veri bölümünden verilerinizi dışa aktarabilir, hesabınızı ve tüm verilerinizi silebilirsiniz. Diğer talepler için destek sayfasındaki iletişim bilgilerini kullanabilirsiniz.</p>
+<p>Verilerinize erişme, düzeltme (uygulamada profil ve kayıtlarınızı düzenleyebilirsiniz), silme ve işlenmesine itiraz etme haklarına sahipsiniz. Öğrenci, ders ve finans listelerinizi Profil &gt; CSV Dışa Aktar ile dosya olarak alabilirsiniz. Hesabınızı uygulamadan silebilirsiniz. Diğer talepler için <a href="support.html">destek sayfasındaki</a> e-posta adresine yazabilirsiniz.</p>
+
 <h2>Çocukların verileri</h2>
-<p>Uygulama öğretmenler içindir; öğrenci hesapları öğretmen tarafından oluşturulur. Reşit olmayan öğrencilerin verileri yalnızca ders yönetimi amacıyla, veli bilgisi dahilinde işlenmelidir.</p>
+<p>Uygulama öğretmenler ve veliler içindir; öğrenci hesapları öğretmen tarafından oluşturulur. Reşit olmayan öğrencilerin verileri yalnızca ders yönetimi amacıyla, veli bilgisi dahilinde işlenmelidir. Veli, çocuğuna ait verilerin silinmesini öğretmenden veya bize yazarak isteyebilir.</p>
+
+<h2>Değişiklikler</h2>
+<p>Bu politika güncellendiğinde sayfanın başındaki tarih değişir; önemli değişiklikler uygulama içinde duyurulur.</p>
+
 <h2>İletişim</h2>
-<p><a href="support.html">Destek sayfası</a></p>
+<p><a href="support.html">Destek sayfası</a> · <a href="terms.html">Kullanım Koşulları</a></p>
 </body></html>
